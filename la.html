@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login System</title>
+  <link rel="stylesheet" href="La.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Register</h2>
+  <input id="rUser" placeholder="Username">
+  <input id="rPass" type="password" placeholder="Password">
+  <button onclick="register()">Register</button>
+
+  <h2>Login</h2>
+  <input id="lUser" placeholder="Username">
+  <input id="lPass" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
+
+<div class="box hidden" id="secure">
+  <h2>Welcome 🎉</h2>
+  <p>This is a secured page</p>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="La.js"></script>
+</body>
+</html>
